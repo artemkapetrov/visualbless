@@ -65,6 +65,30 @@ body::-webkit-scrollbar-thumb {
   outline: 2px solid rgb(255, 255, 255);
 }
 
+h1 {
+    font-family: 'Bebas Neue Bold';
+}
+
+h2 {
+    font-family: 'Bebas Neue Book';
+}
+
+h3 {
+    font-family: 'Bebas Neue Light';
+}
+
+h4 {
+    font-family: 'Bebas Neue Book';
+}
+
+h5 {
+    font-family: 'Bebas Neue Light';
+}
+
+h6 {
+    font-family: 'Bebas Neue Thin';
+}
+
 .fullscreen {
     background: url(/iwilldiehere_zeitfall_-_cursed_73366339_1_2_1_-_online-video-cutter.com_-_1_.gif);
     padding: 50px;
