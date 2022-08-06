@@ -70,11 +70,11 @@ h1 {
 }
 
 button {
-    font-family: 'Bebas Neue Bold'
+    font-family: 'Bebas Neue Bold';
 }
 
 input {
-    font-family: 'Bebas Neue Bold'
+    font-family: 'Bebas Neue Bold';
 }
 
 h2 {
@@ -406,6 +406,7 @@ ul li { list-style-type: none; }
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Bebas Neue Bold';
 }
 
 .contacts {
