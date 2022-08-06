@@ -370,7 +370,6 @@ ul li { list-style-type: none; }
     border: none;
     background: #000;
     padding: 10px;
-    font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
 }
 
@@ -406,7 +405,6 @@ ul li { list-style-type: none; }
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Bebas Neue Bold';
 }
 
 .contacts {
