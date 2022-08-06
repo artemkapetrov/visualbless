@@ -427,3 +427,65 @@ ul li { list-style-type: none; }
 .contact h1 {
     margin: 2px;
 }
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 478px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .credits {
+        flex-direction: column;
+    }
+
+    .credits_page h1 {
+        text-align:center;
+    }
+
+    .contact_link {
+        font-size: 17px;
+    }
+
+    .contact_icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .reviews_page h1 {
+        text-align: center;
+    }
+
+    .search {
+        font-size: 15px;
+    }
+
+    .list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .list li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;   
+        width: 80%;
+    }
+
+    ul {
+        padding: 0%;
+    }
+
+    .portfolio_page {
+        width: 100%;
+    }
+}
