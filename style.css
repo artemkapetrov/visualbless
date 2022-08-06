@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bebas-neue');
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    background: #000;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  outline: 2px solid rgb(255, 255, 255);
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+h5 {
+    font-weight: 200;
+}
+
+h6 {
+    font-weight: 100;
+}
+
+.fullscreen {
+    background: url(/iwilldiehere_zeitfall_-_cursed_73366339_1_2_1_-_online-video-cutter.com_-_1_.gif);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.fullscreen h1{
+    color: white;
+    background: #000;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.credits_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    flex-direction: column;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.credit_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    margin: 20px;
+}
+
+.credit_artist {
+    margin: 1px;
+    font-weight: 600;
+}
+
+.credit_description {
+    margin: 1px;
+    font-weight: 500;
+}
+
+.credit_track {
+    margin: 1px;
+    font-weight: 300;
+    align-content: center;
+}
+
+.portfolio_page {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.carousel_image {
+    width: 100%;
+}
+
+.famous_portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.famous_portfolio_image {
+    width: 50%;
+}
+
+.famous_cover_block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.descriptor {
+    text-align: center;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menu_button {
+    margin: 20px;
+    color: white;
+}
+
+.reviews_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.reviews_page h1, .reviews_page h2 {
+    margin: 2px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.review_ava {
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+    margin: 20px;
+}
+
+.review_profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.contact_page {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#users{
+    color: white;
+}
+
+ul li { list-style-type: none; }
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 20%;
+}
+
+.market_image {
+    width: 100%;
+}
+
+.list li a {
+    text-align: center;
+    margin: 2px;
+}
+
+.list li p {
+    margin: 2px;
+}
+
+.list li h3 {
+    margin: 2px;
+}
+
+.rainbow_text {
+    color: red;
+    animation: rainbow_text infinite ease-in 5s;
+}
+
+@keyframes rainbow_text {
+    0% {
+        color: red;
+    }
+
+    14.28571428571429% {
+        color: orange;
+    }
+
+    28.57142857142857% {
+        color: yellow;
+    }
+
+    42.85714285714286% {
+        color: lime;
+    }
+
+    57.14285714285715% {
+        color: aqua;
+    }
+
+    71.42857142857143% {
+        color: blue;
+    }
+
+    85.71428571428572% {
+        color: blueviolet;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.market_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.market_button {
+    color: white;
+}
+
+.soldout {
+    text-decoration: line-through; 
+}
+
+.sale {
+    color: red;
+}
+
+.search {
+    background: #000;
+    color: white;
+    border: none;
+    outline: none;
+    border: white solid 1px;
+    font-size: 20px;
+}
+
+.nooutline {
+    color: white;
+    outline: none;
+    border: none;
+    background: #000;
+    padding: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+}
+
+.search:focus {
+    border: white solid 1px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgb(255, 255, 255);    font-family: 'Bebas Neue', sans-serif;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgb(255, 255, 255);    font-family: 'Bebas Neue', sans-serif;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgb(255, 255, 255);    font-family: 'Bebas Neue', sans-serif;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgb(255, 255, 255);    font-family: 'Bebas Neue', sans-serif;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    rgb(255, 255, 255);
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    rgb(255, 255, 255);
+   font-family: 'Bebas Neue', sans-serif;
+}
+
+.market_inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.contact_icon {
+    width: 70px;
+    height: 70px;
+}
+
+.contact_link {
+    color: white;
+    margin: 20px;
+}
+
+.contact h1 {
+    margin: 2px;
+}
