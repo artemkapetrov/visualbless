@@ -65,8 +65,16 @@ body::-webkit-scrollbar-thumb {
   outline: 2px solid rgb(255, 255, 255);
 }
 
-h1, button, input {
+h1 {
     font-family: 'Bebas Neue Bold';
+}
+
+button {
+    font-family: 'Bebas Neue Bold'
+}
+
+input {
+    font-family: 'Bebas Neue Bold'
 }
 
 h2 {
